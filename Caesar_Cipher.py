@@ -1,4 +1,6 @@
-# --- Caesar Cipher ---
+# =====================
+# === Caesar Cipher ===
+# =====================
 
 def caesar_cipher(text, shift, mode):
     
@@ -22,7 +24,9 @@ def caesar_cipher(text, shift, mode):
 
     return result
 
-print("--- Caeser Cipher ---")
+# _________________________________________________________________________________________________
+
+print("=== Caeser Cipher ===")
 
 while True:
     choice = input("Encrypt or Decrypt? (e/d):").lower()
@@ -50,3 +54,5 @@ else:
     print("\nDecrypted message:")
 
 print(output)
+
+# _________________________________________________________________________________________________
